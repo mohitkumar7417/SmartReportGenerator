@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AutoReport</title>
+
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+            margin:20px;
+            background:#f4f4f4;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:auto;
+            background:white;
+            padding:20px;
+            border-radius:8px;
+        }
+
+        h1{
+            color:#2c3e50;
+            text-align:center;
+        }
+
+        table{
+            border-collapse:collapse;
+            width:100%;
+        }
+
+        table,th,td{
+            border:1px solid black;
+        }
+
+        th,td{
+            padding:8px;
+            text-align:center;
+        }
+
+        img{
+            max-width:100%;
+            height:auto;
+            display:block;
+            margin:20px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Sales Report</h1>
+
+<h3>Total Sales: 419000</h3>
+<h3>Average Sales: 83800.0</h3>
+
+<h2>Category Wise Sales</h2>
+
+<ul>
+
+<li>Electronics : 328000</li>
+
+<li>Furniture : 91000</li>
+
+</ul>
+
+<h2>Full Data</h2>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Product</th>
+      <th>Category</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Laptop</td>
+      <td>Electronics</td>
+      <td>5</td>
+      <td>60000</td>
+      <td>300000</td>
+    </tr>
+    <tr>
+      <td>Mouse</td>
+      <td>Electronics</td>
+      <td>20</td>
+      <td>500</td>
+      <td>10000</td>
+    </tr>
+    <tr>
+      <td>Keyboard</td>
+      <td>Electronics</td>
+      <td>15</td>
+      <td>1200</td>
+      <td>18000</td>
+    </tr>
+    <tr>
+      <td>Chair</td>
+      <td>Furniture</td>
+      <td>10</td>
+      <td>3500</td>
+      <td>35000</td>
+    </tr>
+    <tr>
+      <td>Table</td>
+      <td>Furniture</td>
+      <td>8</td>
+      <td>7000</td>
+      <td>56000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Sales Chart</h2>
+
+<img src="bar_chart.png" alt="Sales Chart">
+
+</div>
+
+</body>
+</html>
