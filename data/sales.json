@@ -1,0 +1,20 @@
+[
+  {
+    "Product": "Laptop",
+    "Category": "Electronics",
+    "Quantity": 5,
+    "Price": 60000
+  },
+  {
+    "Product": "Mouse",
+    "Category": "Electronics",
+    "Quantity": 20,
+    "Price": 500
+  },
+  {
+    "Product": "Keyboard",
+    "Category": "Electronics",
+    "Quantity": 15,
+    "Price": 1200
+  }
+]
